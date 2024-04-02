@@ -3,23 +3,7 @@
   padding: 0;
 }*/
 body {
-  width: 1300px;
-}
-/*.image-section {
-  /*background-image: url("/images/Header-Background.webp");
-  background-repeat: no-repeat;*/
-  display: flex;
-  width: 200px;
-  height: 200px;
-  vertical-align: top;
-  padding: 1px;
-  color: #01386a;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}*/
-/*.inline-block {
-  display: inline;
-  background-image: url("images/Header-Background.webp");
-  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .nav-container {
@@ -84,56 +68,55 @@ body {
   left: 150px;
 }*/
 #header {
-    height: 350px;
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    margin-bottom: -45px;
+  height: 350px;
+  background-image: url("/images/background-1.png");
+  background-repeat: no-repeat;
 }
 .top {
-    display: flex;
+  display: flex;
 }
 .logo {
-    padding: 20px;
-    padding-left: 120px;
+  padding: 20px;
+  padding-left: 120px;
 }
 .pageTitle {
-    color: #01386A;
-    font-family: "Bitter";
-    padding: 40px;
-    padding-left: 10px;
+  color: #01386a;
+  font-family: "Bitter";
+  padding: 40px;
+  padding-left: 10px;
 }
 .pageTitle h1 {
-    font-size: 50px;
-    font-weight: 500;
+  font-size: 50px;
+  font-weight: 500;
 }
-.pageTitle h3{
-    font-weight: 300;
-    font-size: 24px;
-    margin-top: -30px;
+.pageTitle h3 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: -30px;
 }
 .nav {
-    padding-left: 100px;
-    font-family: "Sen";
+  padding-left: 100px;
+  font-family: "Sen";
 }
 .nav a {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    color: #633301;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: #633301;
 }
 .nav a img {
-    padding: 3px;
+  padding: 3px;
 }
 .button1 {
-    border-radius: 30px;
-    background-color: #8E5315;
-    border: none;
-    color: white;
-    width: 150px;
-    height: 40px;
-    font-family: "Sen";
-    font-size: 22px;
-    font-weight: 500;
+  border-radius: 30px;
+  background-color: #8e5315;
+  border: none;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-family: "Sen";
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .hero-image {
@@ -143,22 +126,27 @@ body {
   height: 616px;
   position: relative;
   display: inline-block;
-  background-image: linear-gradient(to right, #0B5083 , white);
+  background-image: linear-gradient(to right, #0b5083, white);
 }
-.hero-image img{
- display: block;
+.hero-image img {
+  display: block;
   width: 100%;
-  height: auto; 
-background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(181,202,217,1) 0%, rgba(11,80,131,1) 100%); 
+  height: auto;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(181, 202, 217, 1) 0%,
+    rgba(11, 80, 131, 1) 100%
+  );
 }
-.hero-image h2{
+.hero-image h2 {
   position: absolute;
-  top: 50%; 
-  left: 20%; 
-  transform: translate(-50%, -50%); 
-  color: #fff; 
-  padding: 10px 20px; 
-  font-size: 64px; 
+  top: 85%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 64px;
   text-align: center;
   font-family: "Sen", sans-serif;
 }
@@ -177,19 +165,19 @@ background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(181,202,217,1) 
   flex-direction: column;
   padding-right: 150px;
   padding-left: 150px;
-  color: #01386A;
+  color: #01386a;
   font-size: 20px;
   word-wrap: break-word;
   font-family: "Open Sans", sans-serif;
 }
-.title h3{
+.title h3 {
   font-size: 40px;
-    color:#01386A;
-    font-family: "Open Sans";
-    text-align: center;
+  color: #01386a;
+  font-family: "Open Sans";
+  text-align: center;
 }
-.message-us{
-  color: #01386A;
+.message-us {
+  color: #01386a;
   font-size: 30px;
   font-weight: 500;
   line-height: 38px;
@@ -197,13 +185,13 @@ background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(181,202,217,1) 
   font-family: "Bitter", serif;
 }
 
-.form{
-color: #01386A;
-font-size: 22px;
-font-family: Open Sans;
-font-weight: 400;
-line-height: 24px;
-word-wrap: break-word
+.form {
+  color: #01386a;
+  font-size: 22px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
 }
 /*.right-container{
   color: #01386A;
@@ -214,33 +202,39 @@ word-wrap: break-word
 .Submitbutton {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
-  background-color: #2881D2;
+  background-color: #2881d2;
   color: #ffffff;
   border-radius: 32px;
   width: 162px;
   height: 48px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  /*position: relative;
   top: 11px;
-  left: 150px;
+  left: 150px;*/
+}
+.middleSection {
+  display: flex;
+  justify-content: center;
 }
 
-.right-container .contact-deets{
-  color: #01386A;
+.right-container .contact-deets {
+  color: #01386a;
   font-size: 30px;
   font-weight: 500;
   line-height: 38px;
   word-wrap: break-word;
   font-family: "Bitter", serif;
 }
-.right-container{
-  color: #01386A;
+.right-container {
+  color: #01386a;
   font-size: 20px;
   font-weight: 500;
   line-height: 38px;
   word-wrap: break-word;
   font-family: "Open Sans", sans-serif;
 }
-span{
+span {
   color: red;
 }
 /*.Letter {
@@ -271,62 +265,24 @@ span{
   left: 0;
   }
 */
-/*.container {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: space-between;
-  font-size: 24px;
-  background-image: url("images/Footer\ Background.png");
-  background-repeat: no-repeat;
-  color: #012c6d;
-  height: 435px;
-  width: 1;
-}
 
-.footer-content1 {
-  display: inline;
-  flex-direction: column;
-  padding-top: 10px;
-  /*width: max-content;
-}
-.footer-content2 {
-  display: inline;
-  flex-direction: column;
-  padding: 60px;
-  padding-top: 10px;
-}
-.button3 {
-  background-color: #8e5315;
-  color: #ffffff;
-  border-radius: 32px;
-  width: 213px;
-  height: 61px;
-}
-.footer-content3 {
-  display: inline;
-  flex-direction: column;
-  padding: 60px;
-  padding-top: 10px;
-}
-*/
 .footer {
-  background-image: url(/UX_UI_HW_17_CORRECTED/images/background\ image.png);
+  background-image: url(/images/background-image-1.png);
   background-repeat: no-repeat;
-  }
+}
 .footer .top {
   height: 250px;
   display: flex;
-  justify-content: center;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 .top .left {
-  padding-left: 80px;
+  padding-left: 50px;
   height: 250px;
   font-family: "Open Sans";
   color: #135997;
 }
 .top .left img {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 .top .left p {
   margin: 5px;
@@ -339,12 +295,13 @@ span{
   -webkit-background-clip: text;
 }
 .top .mid {
-  padding-left: 80px;
+  padding-left: 180px;
   height: 250px;
 }
 .top .right {
   padding-top: 0;
   height: 300px;
+  padding-left: 300px;
 }
 .footer .bottom {
   color: #8e5315;
