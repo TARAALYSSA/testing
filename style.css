@@ -205,6 +205,7 @@ body {
 .Submitbutton {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
+  margin: 10px;
   background-color: #2881d2;
   color: #ffffff;
   border-radius: 32px;
@@ -212,12 +213,6 @@ body {
   height: 48px;
   display: flex;
   justify-content: center;
-  /*margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);*/
 }
 .middleSection {
   display: flex;
